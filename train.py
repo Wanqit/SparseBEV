@@ -26,7 +26,7 @@ def main():
     parser.add_argument('--world_size', type=int, default=1)
     parser.add_argument('--run_name', type=str, required=True)
     args = parser.parse_args()
-
+    #wqt
     # parse configs
     cfgs = Config.fromfile(args.config)
     if args.override is not None:
